@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 300vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.topDisplay {
+  justify-content: center;
+  padding: 100px 100px 50px 100px;
+}
+
+.topDescriber {
+  width: 40vw;
+}
+
+.selectionBox {
+  padding: 20px;
+  border: 2px solid red;
+}
+
+hr {
+  margin-top: 30px;
+  width: 80vw;
+}
